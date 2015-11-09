@@ -9,3 +9,34 @@
 .nav li a{
 	font-family: Oswald;
 }
+@media (max-width: 767px){
+	.col-sm-4 > .btn,
+	.col-sm-12 > .btn{
+		margin: 10px auto;
+		display: block;
+		width: 90%;
+	}
+
+	.col-sm-12 p + .btn{
+		margin-left: 10px;
+	}
+
+	div div.col-sm-6 > img{
+		width: 94%;
+	}
+
+	.panel{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#subscribe{
+		margin: 0 10px;
+	}
+
+	.text-right{
+		text-align: center;
+	}
+
+
+}
