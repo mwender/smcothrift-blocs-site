@@ -17,7 +17,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 
 a{
-	color:or:#223F7E!important;
+	color:or:#FF3F7E!important;
 }
 
  a:hover{
@@ -29,13 +29,16 @@ a{
 
 
 /* Globals type styling */
- h1, h2, h4, h5, h6, label, .btn, a{
+ h1, h2, h4, h5, h6, label, .btn{
 	font-family:Oswald;
 }
 p{
 	font-family:Helvetica;
 }
 h3{
+	font-family:Helvetica;
+}
+a{
 	font-family:Helvetica;
 }
 
@@ -169,6 +172,9 @@ h3{
 
 /* Bloc text custom styling */
 
+#webinar h3{
+	font-size: 32px;
+}
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -282,9 +288,17 @@ nav .caret{
 .mg-clear{
 	margin:0;
 }
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
+}
+.mg-lg{
+	margin-top:10px;
+	margin-bottom:40px;
 }
 
 /* = Buttons
@@ -311,6 +325,10 @@ button{
 	border-bottom-color:rgba(0,0,0,.1);
 	text-shadow:0 1px 0 rgba(0,0,1,.1);
 	box-shadow: 0 1px 3px rgba(0,0,1,.25), inset 0 1px 0 0 rgba(255,255,255,.15);
+}
+.btn-xl{
+	padding: 16px 40px;
+	font-size: 28px;
 }
 .dropdown a .caret{
 	margin:0 0 0 5px}
@@ -375,22 +393,30 @@ iframe{
 .bgc-platinum{
 	background-color:#E6E7E8;
 }
+.bgc-french-rose{
+	background-color:#FF3F7E;
+}
+/* Text colour styles */
+
+.tc-french-rose{
+	color:#FF3F7E!important;
+}
 /* Button colour styles */
 
-.btn-st.-patricks-blue{
+.btn-st-patricks-blue{
 	background:#223F7E;
 	color:#FFFFFF!important;
 }
-.btn-st.-patricks-blue:hover{
+.btn-st-patricks-blue:hover{
 	background:#1b3265;
 	color:#FFFFFF!important;
 }
 /* Link colour styles */
 
-.ltc-st.-patricks-blue{
+.ltc-st-patricks-blue{
 	color:#223F7E!important;
 }
-.ltc-st.-patricks-blue:hover{
+.ltc-st-patricks-blue:hover{
 	color:#1b3265!important;
 }
 

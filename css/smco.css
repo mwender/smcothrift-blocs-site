@@ -1,0 +1,11 @@
+/* SMCo Styles
+  <link rel="stylesheet" id="smcostyle" type="text/css" href="./css/smco.css">
+  */
+#subscribe{
+	background-color: rgba(0,0,0,0.75);
+	padding: 10px 20px 20px 20px;
+	border-radius: 3px;
+}
+.nav li a{
+	font-family: Oswald;
+}
